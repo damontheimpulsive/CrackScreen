@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CrackScreen</string>
+    <string name="action_settings">Settings</string>
+    <string name="animation">Hey! MoonPie</string>
+    <string name="crackService">Crack Service is Running!</string>
+     <string name="options">Options</string>
+   
+   
+    
+    <string name="general">General</string>
+    <string name="crack_summary">Select crack pattern</string>
+    <string name="crack">Crack</string>
+    
+    <string name="ShakeTitle">Choose Shake</string>
+    <string name="prefShakeSummary">Shake your device</string>
+    
+    
+    <string name="sound_summary">Play a sound effect when the crack pattern is shown</string>
+    <string name="sound_effects">Enable Sound</string>
+    
+    <string name="vibration">Enable Vibration</string>
+     <string name="vibration_summary">Lets you feel a vibration effect when the cracking happens</string>
+      
+    <string name="menu_settings">Menu</string>
+      
+    <string name="start">Start</string>
+     <string name="exit">Exit</string>
+     
+     <string name="pref_sync_frequency_summary">Choose between a number of different methods to break the screen </string>
+      <string name="pref_sync_frequency">Trigger Method</string>
+      <string name="trigger">Trigger</string>
+       
+       <string name="trigger_summary">Show some specific option for trigger method</string>
+       <string name="trigger_title">Configure Trigger...</string>
+       
+        <string name="pref_Timer">Delay Triggering </string>
+           <string name="pref_TimerSummary">Choose delays for cracking </string>
+        
+       
+       
+       <string name="delay">Delay </string>
+       <string name="delayTitle">Delay In Seconds </string>
+       <string name="delaySummary">How long the system should wait until the screen breaks automatically </string>
+       <string name="ok">ok</string>
+       <string name="cancel">cancel</string>
+ 
+       
+       
+     
+   
+</resources>

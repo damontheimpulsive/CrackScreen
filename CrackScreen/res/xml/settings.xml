@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+        
+         <PreferenceCategory android:title="@string/trigger" >
+             
+             
+               <ListPreference
+                 
+            android:key="prefSyncFrequency"
+            android:defaultValue="touch"
+            android:entries="@array/syncFrequency"
+            android:entryValues="@array/syncFrequencyValues"
+            android:title="@string/pref_sync_frequency"
+            android:summary="@string/pref_sync_frequency_summary" />
+               
+               
+               <ListPreference
+           
+            android:key="prefShaker"   
+            android:defaultValue="clear"
+            android:entries="@array/prefShakeEntry"
+            android:entryValues="@array/prefShakeValues"
+            android:title="@string/ShakeTitle"
+            android:summary="@string/prefShakeSummary"/>
+               
+               
+         <ListPreference
+           
+            android:key="prefTimer"   
+            android:entries="@array/prefTimer"
+            android:entryValues="@array/prefTimerValues"
+            android:title="@string/pref_Timer"
+            android:summary="@string/pref_TimerSummary"/>
+                  
+                  
+                
+                  
+                  
+           </PreferenceCategory>
+           
+         
+         
+           
+              <PreferenceCategory android:title="@string/general" > 
+             
+         <Preference
+             
+            android:defaultValue="false"
+            android:key="prefCrack"
+            android:summary="@string/crack_summary"
+            android:title="@string/crack"> 
+            
+             </Preference>
+        
+         
+          <!-- <CheckBoxPreference
+            
+            android:defaultValue="true"
+            android:key="prefShake"
+            android:summary="@string/shakeSummary"
+            android:title="@string/shakeTitle" >
+            
+          </CheckBoxPreference> -->
+        
+        <CheckBoxPreference
+            
+            
+            android:defaultValue="true"
+            android:key="prefsound"
+            android:summary="@string/sound_summary"
+            android:title="@string/sound_effects" >
+            
+            
+        </CheckBoxPreference>
+        
+        
+         <CheckBoxPreference
+            
+            android:defaultValue="true"
+            android:key="prefvibrate"
+            android:summary="@string/vibration_summary"
+            android:title="@string/vibration" >
+            
+            
+        </CheckBoxPreference>
+        
+         
+         
+ 
+   
+    </PreferenceCategory>
+ 
+</PreferenceScreen>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources>
+    
+    <string-array name="syncFrequency">
+        
+        <item name="touch">Touch</item>
+        <item name="dalay">Delay</item>
+        </string-array>
+        
+      <string-array name="syncFrequencyValues">
+         <item name="touch">touch</item>
+        <item name="delay">delay</item>
+        </string-array>
+     
+      
+        <string-array name="prefShakeEntry">
+            
+         <item name="clear">Clear</item>
+         <item name="change">Change </item>
+         
+        </string-array>
+        
+        
+         <string-array name="prefShakeValues">
+             
+            <item name="clear">clear</item>
+           <item name="change">change</item>
+           
+           </string-array>
+     
+      
+       <string-array name="prefTimer">
+        
+        <item name="10 Seconds">10 Seconds </item>
+        <item name="30 Seconds">30 Seconds </item>
+         <item name="1 Mins">1 Mins </item>
+          <item name="2 Mins">2 Mins </item>
+        
+        </string-array>
+        
+        <string-array name="prefTimerValues">
+        
+        <item name="10 Seconds"> 10 </item>
+        <item name="30 Seconds"> 30 </item>
+         <item name="1 Mins">   60   </item>
+          <item name="2 Mins"> 120 </item>
+        
+        </string-array>
+        
+</resources>
